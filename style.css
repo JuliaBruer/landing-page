@@ -1,0 +1,130 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #eccb99;
+    background: linear-gradient(197deg, #eccb99 37%, #784c09 75%);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.meetUs {
+    writing-mode: vertical-lr;
+    font-size: 85px;
+    color: whitesmoke;
+    padding: 0 0 40px 0;
+    display: flex;
+    float:inline-end;
+}
+
+.informations {
+    font-size: 29px;
+    color: #3a2504;
+    margin-right: 80px;
+    padding: 10px;
+}
+
+.circle {
+    shape-outside: circle(50%) border-box;
+    border-radius: 50%;
+	shape-margin: 30px;
+	margin: 10px 40px 40px 100px;
+	width: 400px;
+	height: 400px;
+	float: left;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin: 80px 0 0 150px;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 80px;
+    margin: 20px 0 0 150px;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: whitesmoke;
+    margin: 40px 0 60px 0;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #eccb99;
+}
+
+@media only screen and (max-width: 700px) {
+    h1 {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .meetUs {
+        writing-mode: vertical-lr;
+        font-size: 40px;
+        color: whitesmoke;
+        padding: 0 0 40px 0;
+        display: flex;
+        float:inline-end;
+    }
+    
+    .informations {
+        font-size: 29px;
+        color: #3a2504;
+        margin-right: 80px;
+        padding-left: 50px;
+    }
+    
+    .circle {
+        shape-outside: circle(50%) border-box;
+        border-radius: 50%;
+        shape-margin: 30px;
+        margin: 10px 40px 40px 100px;
+        width: 200px;
+        height: 200px;
+        float: left;
+    }
+
+    h2 {
+        display: flex;
+        justify-content: center;
+        padding-left: 50px;
+        margin: 30px 0 0 0;
+        font-weight: bold;
+        font-size: 80px;
+    }
+    
+    h3 {
+        display: flex;
+        justify-content: center;
+        padding-left: 50px;
+        font-weight: bold;
+        font-size: 80px;
+        margin: 20px 0 0 0;
+    }
+
+  }
